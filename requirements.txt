@@ -1,5 +1,6 @@
 Sphinx==1.2.2
 docutils==0.15.2
 # Used for deployment
-awscli==1.9.7
+awscli==1.11.83
 doc8==0.6.0
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
